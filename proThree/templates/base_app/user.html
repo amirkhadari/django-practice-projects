@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Users</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron text-center">
+      <h1>We are pleased to help you</h1>
+      <p>Please find our team here </p>
+    </div>
+    <div class="container-fluid">
+      <h1>User Info</h1>
+      {% if user %}
+        <ol>
+            {% for member in user %}
+            <ul>
+              <li>{{ member.first_name }}</li>
+              <li>{{ member.last_name }}</li>
+              <li>{{ member.email }}</li>
+              <li>{{ member.phone }}</li>
+            </ul>
+            <hr>
+            {% endfor %}
+
+        </ol>
+
+      {% else %}
+        <p> No Users Here </p>
+      {% endif %}
+
+    </div>
+  </body>
+</html>
