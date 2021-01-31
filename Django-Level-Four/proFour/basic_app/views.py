@@ -4,7 +4,9 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, 'basic_app/index.html')
+    context_dict = {'text': 'the web framework for perfectionists with deadlines',
+                    'digit': 100}
+    return render(request, 'basic_app/index.html', context_dict)
 
 
 def other_pages(request):
