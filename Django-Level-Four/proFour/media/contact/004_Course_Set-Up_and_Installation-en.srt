@@ -1,0 +1,383 @@
+1
+00:00:05,030 --> 00:00:10,280
+Hello everyone and welcome to the set up in instillation lecture before we get started.
+
+2
+00:00:10,290 --> 00:00:15,000
+I wanted to note that there are many options for choosing your development environment and your browser.
+
+3
+00:00:15,210 --> 00:00:21,860
+In this course we're going to be using the Adam text editor and Google Chrome if you're very experienced.
+
+4
+00:00:21,860 --> 00:00:25,030
+Another idea that's an integrated development environment.
+
+5
+00:00:25,100 --> 00:00:27,070
+Feel free to go ahead and use it.
+
+6
+00:00:27,290 --> 00:00:32,050
+Maybe you already have a lot of experience with the subline text editor or high charm.
+
+7
+00:00:32,060 --> 00:00:33,390
+That's totally ok.
+
+8
+00:00:33,410 --> 00:00:36,020
+Feel free to use whatever feels comfortable for you.
+
+9
+00:00:36,140 --> 00:00:41,120
+If you already have a lot of experience of a certain ID although I still highly recommend you try out
+
+10
+00:00:41,160 --> 00:00:44,970
+Adam I've learned to really enjoy it and it works really well.
+
+11
+00:00:45,020 --> 00:00:49,120
+It's all the material in this course as far as the browser choice goes.
+
+12
+00:00:49,130 --> 00:00:51,140
+We do ask that you please use Chrome.
+
+13
+00:00:51,170 --> 00:00:55,760
+It is by far the most popular choice for web developers and I also want to make sure that the sites
+
+14
+00:00:55,850 --> 00:00:59,260
+that I run in this course will also run on your computer.
+
+15
+00:00:59,360 --> 00:01:03,740
+Again in this lecture we're going to show you where you can install Adam text editor from and give you
+
+16
+00:01:03,740 --> 00:01:04,870
+a quick tour of it.
+
+17
+00:01:04,880 --> 00:01:05,980
+Let's get started.
+
+18
+00:01:05,990 --> 00:01:08,400
+Go to Google in your browser.
+
+19
+00:01:08,400 --> 00:01:11,240
+OK so in your browser if you don't have google chrome.
+
+20
+00:01:11,360 --> 00:01:17,040
+What you should do is go to Google dot com slash chrome or just google search for the term Google Chrome
+
+21
+00:01:17,610 --> 00:01:21,870
+and eventually you'll find this page right here which is Gool about com slash Chrome.
+
+22
+00:01:21,870 --> 00:01:26,220
+There may be a bunch of information about their Chrome books which are their physical products.
+
+23
+00:01:26,220 --> 00:01:32,310
+What we really want is just Google Chrome itself so you can click here on download click for personal
+
+24
+00:01:32,310 --> 00:01:35,920
+computers and then click on the download link for the web browser.
+
+25
+00:01:36,450 --> 00:01:36,760
+OK.
+
+26
+00:01:36,780 --> 00:01:38,190
+So that's making it Google Chrome.
+
+27
+00:01:38,190 --> 00:01:39,450
+It's just a web browser.
+
+28
+00:01:39,450 --> 00:01:45,570
+I'm sure many of you are or most of you are already familiar with it then to actually get the text editor
+
+29
+00:01:45,570 --> 00:01:47,920
+for this course go to atom.
+
+30
+00:01:47,940 --> 00:01:50,830
+Io that's 80 m dot.
+
+31
+00:01:50,890 --> 00:01:55,050
+Oh and this is the Adam text editor that we're using for the course.
+
+32
+00:01:55,410 --> 00:02:01,890
+And the reason we use Adam text editor is because it can support across platforms that OS X Windows
+
+33
+00:02:01,890 --> 00:02:02,550
+Linux.
+
+34
+00:02:02,580 --> 00:02:06,660
+It has a built in package manager so you can search for and install new packages.
+
+35
+00:02:06,660 --> 00:02:10,290
+You can even create your own packages and plug ins all from within atom.
+
+36
+00:02:10,340 --> 00:02:15,570
+It has smart auto completion that will be using a lot during the course file system browser multiple
+
+37
+00:02:15,570 --> 00:02:21,190
+panes find replace features has a lot of stuff that we're going to be using often throughout the course.
+
+38
+00:02:21,360 --> 00:02:26,680
+Now other text editors also have these exact same features so Adam is not unique in these aspects.
+
+39
+00:02:26,730 --> 00:02:30,260
+But it works really well for what we're going to be doing for the course.
+
+40
+00:02:30,760 --> 00:02:35,410
+The main reason I really like Adam though is if you scroll all the way down there's two really interesting
+
+41
+00:02:35,410 --> 00:02:36,300
+things about it.
+
+42
+00:02:36,310 --> 00:02:40,990
+The first thing that I really like is that it's totally open source so it's totally free it's open source
+
+43
+00:02:41,260 --> 00:02:46,330
+and if you really want to make a change to the Adam text editor you can make a contribution and help
+
+44
+00:02:46,330 --> 00:02:46,960
+improve.
+
+45
+00:02:47,040 --> 00:02:52,570
+Adam text editor and then the second thing which is kind of more of a curiosity slash really interesting
+
+46
+00:02:52,780 --> 00:02:59,800
+aspect of it is that atom itself is actually built with a lot of the front end technologies are we in
+
+47
+00:02:59,800 --> 00:03:06,510
+this course it runs with h tim l javascript CSSA and a javascript library called node.
+
+48
+00:03:06,580 --> 00:03:07,170
+Yes.
+
+49
+00:03:07,360 --> 00:03:13,000
+And then it runs all that on a framework called electron which allows you to use web technologies actually
+
+50
+00:03:13,000 --> 00:03:15,190
+build desktop applications.
+
+51
+00:03:15,190 --> 00:03:20,620
+So that's just a little side fact we won't be dealing with electron at all in this course but maybe
+
+52
+00:03:20,620 --> 00:03:25,150
+after you've done taking this course you're interested in developing desktop applications will you'll
+
+53
+00:03:25,150 --> 00:03:28,950
+be able to use a lot of the skills in this course to build something like atom.
+
+54
+00:03:29,260 --> 00:03:32,380
+So that's just a quick side note to actually install Adam.
+
+55
+00:03:32,410 --> 00:03:33,730
+It's quite simple.
+
+56
+00:03:33,730 --> 00:03:35,990
+Just click here on the installation button.
+
+57
+00:03:36,070 --> 00:03:38,790
+If you're on Windows this will download an executable file.
+
+58
+00:03:38,830 --> 00:03:39,820
+You just double click it.
+
+59
+00:03:39,850 --> 00:03:41,570
+Run through the installation process.
+
+60
+00:03:41,620 --> 00:03:45,260
+If you're on a Mac OS this will be something like a dmg file again.
+
+61
+00:03:45,280 --> 00:03:46,020
+Double click it.
+
+62
+00:03:46,060 --> 00:03:52,210
+Run through the installation process and then if you're on Ubuntu I believe it's a tar file that you
+
+63
+00:03:52,210 --> 00:03:54,210
+can just then unpack.
+
+64
+00:03:54,220 --> 00:03:58,140
+OK so let me hop over to the Adam text editor and show you what it looks like.
+
+65
+00:03:58,580 --> 00:04:04,000
+OK so once you've opened Adam for the first time you should see a welcome guide and this is just a really
+
+66
+00:04:04,000 --> 00:04:05,300
+useful guide for you.
+
+67
+00:04:05,310 --> 00:04:10,030
+It has a bunch of information about the various features of ADOM such as how to open a project install
+
+68
+00:04:10,030 --> 00:04:11,560
+a package choose a theme.
+
+69
+00:04:11,590 --> 00:04:16,780
+If you don't like the default color theme you can just click here on choose a theme and then open the
+
+70
+00:04:16,780 --> 00:04:19,720
+theme picker and then check the other themes out.
+
+71
+00:04:19,720 --> 00:04:24,960
+You can even customize the styling and you can do anything with SS that we learned later on in this
+
+72
+00:04:24,970 --> 00:04:25,360
+course.
+
+73
+00:04:25,360 --> 00:04:26,710
+That's pretty cool as well.
+
+74
+00:04:26,950 --> 00:04:28,770
+And then you can actually add snippets.
+
+75
+00:04:28,770 --> 00:04:30,340
+Learn keyboard shortcuts.
+
+76
+00:04:30,340 --> 00:04:32,500
+I would recommend you check out these keyboard shortcuts.
+
+77
+00:04:32,500 --> 00:04:36,730
+I'll be telling you the most useful ones as we continue throughout the course but the main thing I want
+
+78
+00:04:36,730 --> 00:04:38,530
+to show you is how to open a project.
+
+79
+00:04:38,590 --> 00:04:44,080
+So if you click on open a project will open a file open her see just click open a project here and then
+
+80
+00:04:44,080 --> 00:04:45,890
+you can select any folder you want.
+
+81
+00:04:46,030 --> 00:04:51,580
+So hopefully by now you've downloaded the files that go of this course and then you can just add that
+
+82
+00:04:51,790 --> 00:04:55,750
+select that folder and add it to the actual file path.
+
+83
+00:04:55,770 --> 00:04:57,230
+So let me show you what that looks like.
+
+84
+00:04:57,330 --> 00:05:00,510
+I'll just select this folder right here.
+
+85
+00:05:02,020 --> 00:05:02,920
+And here it can see.
+
+86
+00:05:02,920 --> 00:05:06,260
+I've selected a folder Django lecture's has some files in it.
+
+87
+00:05:06,370 --> 00:05:10,200
+If you want to open a file you just click on it and then it opens up the file itself.
+
+88
+00:05:10,380 --> 00:05:14,500
+And here you can see I have some H-2 him all code and that's basically we're going to be doing throughout
+
+89
+00:05:14,560 --> 00:05:15,580
+the rest of the course.
+
+90
+00:05:15,640 --> 00:05:19,990
+We're just going to be running through your project folders and then adding files here.
+
+91
+00:05:20,130 --> 00:05:24,930
+And if you ever want to collapse this directory all you have to do is do command or control backslash
+
+92
+00:05:25,690 --> 00:05:27,840
+and then you can open and close that.
+
+93
+00:05:28,270 --> 00:05:31,120
+All right so that's the very basics of Adam.
+
+94
+00:05:31,120 --> 00:05:33,910
+That's really all you need to know throughout the rest of the course.
+
+95
+00:05:33,910 --> 00:05:38,110
+We're going to be showing you more and more features of Adam and then playing around a lot more.
+
+96
+00:05:38,110 --> 00:05:41,180
+OK thanks everyone and I will see you at the next lecture.

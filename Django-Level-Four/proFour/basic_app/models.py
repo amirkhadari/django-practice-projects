@@ -25,20 +25,23 @@ class contact(models.Model):
     ),
     ]
 
-    MEDIA_CHOICES = [
-    ('Audio', (
-            ('vinyl', 'Vinyl'),
-            ('cd', 'CD'),
-        )
-    ),
-    ('Video', (
-            ('vhs', 'VHS Tape'),
-            ('dvd', 'DVD'),
-        )
-    ),
-    ('unknown', 'Unknown'),
-]
+#     MEDIA_CHOICES = [
+#     ('Audio', (
+#             ('vinyl', 'Vinyl'),
+#             ('cd', 'CD'),
+#         )
+#     ),
+#     ('Video', (
+#             ('vhs', 'VHS Tape'),
+#             ('dvd', 'DVD'),
+#         )
+#     ),
+#     ('unknown', 'Unknown'),
+# ]
 
     Investors = models.CharField(max_length=50, choices=RELATIONSHIPS)
     Queries = models.TextField(max_length=10000)
     upload_file = models.FileField(upload_to='contact/')
+
+    def __str__(self):
+        return self.full_name

@@ -19,7 +19,7 @@
           <li class='active'><a href="{% url 'Home' %}">Home</a></li>
           <li><a href="{% url 'basic_app:our services'%}">Our services</a></li>
           <li><a href="{% url 'basic_app:sitemap' %}">Sitemap</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="{% url 'user-contact' %}">Contact Us</a></li>
         </ul>
       </div>
     </nav>
@@ -28,6 +28,10 @@
         {% block body_block %}
         {% endblock %}
       </div>
+    </div>
+    <div class="container-fluid">
+      {% block content %}
+      {% endblock %}
     </div>
   </body>
 </html>
