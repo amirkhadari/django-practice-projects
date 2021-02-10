@@ -7,6 +7,18 @@ class contact_us_form(forms.ModelForm):
         model = contact
         fields = "__all__"
 
+        widgets = {
+
+            'full_name': forms.TextInput(attrs={'class': 'form-control'}),
+            'email': forms.TextInput(attrs={'class': 'form-control'}),
+            'organisation': forms.TextInput(attrs={'class': 'form-control'}),
+            'phone': forms.TextInput(attrs={'class': 'form-control'}),
+            'country': forms.Select(attrs={'class': 'form-control'}),
+            'Investors': forms.Select(attrs={'class': 'form-control'}),
+            'Queries': forms.Textarea(attrs={'class': 'form-control'})
+
+        }
+
     def clean_email(self):
         email_details = self.cleaned_data.get('email')
         if "@gmail.com" in email_details:

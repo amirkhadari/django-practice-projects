@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% extends 'basic_app/base.html' %}
+
+{% block body_block %}
+  <h1>Create your Blog</h1>
+{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <form enctype="multipart/form-data" method="POST">
+          <div class="form-group">
+            {{ form.as_p }}
+            {% csrf_token %}
+          </div>
+          <input type="submit" class = "btn btn-primary" value="submit">
+        </form>
+      </div>
+    </div>
+
+  </div>
+{% endblock %}
