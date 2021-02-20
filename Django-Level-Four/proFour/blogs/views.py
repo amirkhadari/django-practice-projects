@@ -18,7 +18,7 @@ def blog_view(request):
 
 
 def blog_list(request):
-    total_blogs = Blog_Model.objects.all().order_by('-date_created')
+    total_blogs = Blog_Model.objects.all().order_by('-date_created').filter(blog_status=2)
     # img = Blog_Model.objects.all()
     blog_dict = {'blogs': total_blogs}
     return render(request, 'blog_templates/blog_listing.html', context=blog_dict)
